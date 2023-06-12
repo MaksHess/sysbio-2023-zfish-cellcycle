@@ -2,10 +2,20 @@
 Quantification of cell-cycle synchrony and mitotic waves in early stage zebrafish embryos.
 
 ## Introduction
+<figure>
+    <img src="images\early_zfish_development.png" title="text" width=1000px>
+    <figcaption>Overwiev of early zebrafish development (adapted from Kimme et al. 1995)</figcaption>
+</figure>
+
 Early zebrafish development is dominated by fast cell divisions (cycling/blastula stage ; cycle ~ 1-9; divisions every 15 min) followed by the Mid Blastula Transition (MBT; around cycle 10) where cell cycle lengthens and becomes asynchronous
 [(Kimmel et al. 1995)](https://anatomypubs.onlinelibrary.wiley.com/doi/epdf/10.1002/aja.1002030302).   
 [Keller et al.](https://www.science.org/doi/10.1126/science.1162493?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) collected live data of early development and describe three modes of mitotic waves, radial waves 
 (cycle 1-9) followed by peripheral waves (cycle 9-13) and finally asynchronous patches (beyond cycle 13).
+
+<figure>
+    <img src="images\mitotic_waves.png" title="text" width=600px>
+    <figcaption>Mitotic waves in early zfish development (Keller et al. 2008, Fig 4A)</figcaption>
+</figure>
 
 ## Data
 Features extracted from IF stained, fixed (cycle 7-13), SDC Microscopy data with a cell cycle model applied.  
@@ -41,5 +51,4 @@ Description of the .csv file:
 - [ ] **9** Modelling of cycling nuclei with variable noise in the frequency/phase
   - [ ] **9a** Minimal cell cycle model (**Fig 1A**)
   - [ ] **9b** Spatial coupling / modelling of waves (?)
-  - [ ] **9c** More advanced modelling (**Fig 1B**)
-
+  - [ ] **9c** More advanced cell cycle model (**Fig 1B**)
